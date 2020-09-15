@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <meta name="description" content="Sobre a equipe da biblioteca de partituras de música de domínio público.">
+        <meta name="keywords" content="música, partituras, sheet, music">
+        <title>Aglomera - Contato</title>
+        <link rel="shortcut icon" href="../imagens/sheet.png" type="image/x-icon">
+    </head>
+    <body bgcolor="#353535" style="color: white;">
+
+        <center><img src="../imagens/functions_hero.jpg" alt="Teclas de um piano"></center>
+        <p>
+            <table align="center" border="1" bgcolor="#ffffff">
+                <tbody>
+                    <tr style="height: 30px;">
+                        <td style="width: 200px;"><center><big><strong><a href="../inicio.html">Início</a></strong></big></center></td>
+                        <td style="width: 200px;"><center><big><strong><a href="sobreNos.html">Sobre Nós</a></strong></big></center></td>
+                        <td style="width: 200px;"><center><big><strong><a href="Contato.html">Contato</a></strong></big></center></td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+        <br><br>
+
+        <table align="center">
+            <thead>
+                <th colspan="6"><center><h1>Informações de Contato:</h1></center></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="6"><center><img src="../imagens/contact.png" alt="Desenho de um telefone e uma carta."></center></td>
+                </tr>
+                <tr>
+                    <td><img src="../imagens/call.png" alt=""></td>
+                    <td style="width: 110px;">(11) 3564-1456</td>
+                    <td><img src="../imagens/at.png" alt=""></td>
+                    <td style="width: 165px;">support@aglomera.com</td>
+                    <td><img src="../imagens/whatsapp.png" alt=""></td>
+                    <td>(11) 95867-6654</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br><br>
+
+        <table align="center">
+            <thead>
+                <th><h1>Ajude-nos a aumentar nossa coleção:</h1></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../imagens/composer.jpg" alt="Partitura musical e uma caneta estilo tinteiro.">
+                            <figcaption>Adicione uma partitura original ou de domínio público!</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h2>Complete o formulário a seguir para enviar uma partitura:</h2></td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            <table align="center">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <label for="nome"><strong>Nome</strong></label>
+                                            <br>
+                                            <input type="text" name="nome" id="nome">
+                                        </td>
+                                        <td>
+                                            <label for="endEmail"><strong>E-mail</strong></label>
+                                            <br>
+                                            <input type="email" name="endEmail" id="endEmail" placeholder="address@server.com">
+                                        </td>
+                                        <td>
+                                            <label for="nascimento"><strong>Data de Nascimento</strong></label>
+                                            <br>
+                                            <input type="date" name="nascimento" id="nascimento">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br>
+                                            <label for="fone"><strong>Telefone</strong></label>
+                                            <br>
+                                            <input type="tel" name="fone" id="fone" placeholder="(XX) XXXX-XXXX">
+                                        </td>
+                                        <td colspan="2">
+                                            <br>
+                                            <label for="tipoPartitura"><strong>Tipo de partitura</strong></label>
+                                            <br>
+                                            <input type="radio" name="tipoPartitura" id="tipoPartitura" value="Domínio Público">Domínio Público
+                                            <input type="radio" name="tipoPartitura" id="tipoPartitura" value="Original" checked>Original
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <br>
+                                            <label for="partitura"><strong>Arquivo da partitura (PDF, MIDI, JPEG, PNG ...)</strong></label>
+                                            <br>
+                                            <input type="file" name="partitura" id="partitura">
+                                        </td>
+                                        <td>
+                                            <br>
+                                            <label for="avaliacao"><strong>Avalie nossa Plataforma</strong></label>
+                                            <br>
+                                            <center>
+                                                <input type="range" name="avaliacao" id="avaliacao" min="0" max="10" step="1" oninput="outputAvaliacao.value = avaliacao.value">
+                                                <output name="outputAvaliacao" id="outputAvaliacao">5</output>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <center>
+                                                <br>
+                                                <label for="comentario">Digite seu comentário (Opcional):</label>
+                                                <br>
+                                                <textarea name="comentario" id="comentario" cols="40" rows="6"></textarea>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"></td>
+                                        <td>
+                                            <br>
+                                            <center>
+                                                <input type="reset" value="Limpar">
+                                                <input type="submit" value="Enviar">
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+        <center>&copy; <strong>Aglomera</strong></center>
+
+    </body>
+</html>

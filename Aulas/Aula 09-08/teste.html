@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste</title>
+    </head>
+    <body>
+        <form action="teste.html" method="post" enctype="multipart/form-data">
+
+            <label for="inputTexto"><strong>Caixa de Texto</strong></label>
+            <br>
+            <input type="text" name="inputTexto" id="inputTexto">
+
+            <br><br>
+
+            <label for="inputNumber"><strong>Caixa de Número</strong></label>
+            <br>
+            <input type="number" name="inputNumber" id="inputNumber" min="-2.5" max="50" step="2.5">
+
+            <br><br>
+            
+            <label for="inputRange"><strong>Barra de Número</strong></label>
+            <br>
+            <input type="range" name="inputRange" id="inputRange" min="-100" max="100" step="10" oninput="outputRange.value = inputRange.value">
+            <output name="outputRange" id="outputRange">0</output>
+
+            <br><br>
+            
+            <label for="inputEmail"><strong>Caixa de E-mail</strong></label>
+            <br>
+            <input type="email" name="inputEmail" id="inputEmail" placeholder="address@server.com">
+
+            <br><br>
+            
+            <label for="inputTelefone"><strong>Caixa de Telefone</strong></label>
+            <br>
+            <input type="tel" name="inputTelefone" id="inputTelefone" placeholder="(DDD)99999-9999">
+
+            <br><br>
+            
+            <label for="inputURL"><strong>Caixa de URL</strong></label>
+            <br>
+            <input type="url" name="inputURL" id="inputURL">
+
+            <br><br>
+            
+            <label for="inputComPlaceholder"><strong>Caixa de Texto com Placeholder</strong></label>
+            <br>
+            <input type="text" name="inputComPlaceholder" id="inputComPlaceholder" placeholder="99-99-99999-5-4">
+
+            <br><br>
+            
+            <label for="inputComValue"><strong>Caixa de Texto com Value</strong></label>
+            <br>
+            <input type="text" name="inputComValue" id="inputComValue" value="Valor pré-definido">
+
+            <br><br>
+            
+            <label for="inputDate"><strong>Caixa de Data</strong></label>
+            <br>
+            <input type="date" name="inputDate" id="inputDate">
+
+            <br><br>
+            
+            <label for="inputMonth"><strong>Caixa de Mês</strong></label>
+            <br>
+            <input type="month" name="inputMonth" id="inputMonth">
+
+            <br><br>
+            
+            <label for="inputTime"><strong>Caixa de Hora</strong></label>
+            <br>
+            <input type="time" name="inputTime" id="inputTime">
+
+            <br><br>
+            
+            <label for="inputWeek"><strong>Caixa de Semana</strong></label>
+            <br>
+            <input type="week" name="inputWeek" id="inputWeek">
+
+            <br><br>
+            
+            <label for="inputDatetime-local"><strong>Caixa de Data e Hora</strong></label>
+            <br>
+            <input type="datetime-local" name="inputDatetime-local" id="inputDatetime-local">
+
+            <br><br>
+            
+            <label for="inputSenha"><strong>Caixa de Senha</strong></label>
+            <br>
+            <input type="password" name="inputSenha" id="inputSenha">
+
+            <br><br>
+            
+            <label for="areaDeTexto"><strong>Área de Texto</strong></label>
+            <br>
+            <textarea name="areaDeTexto" id="areaDeTexto" cols="30" rows="4"></textarea>
+
+            <br><br>
+            
+            <label for="inputCheckbox"><strong>Caixa de Seleção Multipla</strong></label>
+            <br>
+            <input type="checkbox" name="inputCheckbox" id="inputCheckbox" value="Elemento 1">Elemento 1
+            <input type="checkbox" name="inputCheckbox" id="inputCheckbox" value="Elemento 2">Elemento 2
+            <input type="checkbox" name="inputCheckbox" id="inputCheckbox" value="Elemento 3">Elemento 3
+
+            <br><br>
+            
+            <label for="inputRadio"><strong>Caixa de Seleção Única</strong></label>
+            <br>
+            <input type="radio" name="inputRadio" id="inputRadio" value="Elemento 1" checked>Elemento 1
+            <input type="radio" name="inputRadio" id="inputRadio" value="Elemento 2">Elemento 2
+            <input type="radio" name="inputRadio" id="inputRadio" value="Elemento 3">Elemento 3
+
+            <br><br>
+            
+            <label for="inputColor"><strong>Caixa de Seleção de Cores</strong></label>
+            <br>
+            <input type="color" name="inputColor" id="inputColor">
+
+            <br><br>
+            
+            <label for="inputFile"><strong>Upload de Arquivos</strong></label>
+            <br>
+            <input type="file" name="inputFile" id="inputFile">
+
+            <br><br>
+            
+            <label for="dropDownList"><strong>Drop-Down List</strong></label>
+            <br>
+            <select name="dropDownList" id="dropDownList">
+                <option value="op1">Opção 1</option>
+                <option value="op2" selected>Opção 2</option>
+                <option value="op3">Opção 3</option>
+                <option value="op4">Opção 4</option>
+            </select>
+
+            <br><br>
+            
+            <label for="dataListAutocomplete"><strong>Data List</strong></label>
+            <br>
+            <input type="text" name="dataListAutocomplete" id="dataListAutocomplete" list="dataList">
+            <datalist name="dataList" id="dataList">
+                <option value="A Opção">
+                <option value="B Opção">
+                <option value="C Opção">
+                <option value="D Opção">
+            </datalist>
+
+            <br><br>
+            
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+</html>
