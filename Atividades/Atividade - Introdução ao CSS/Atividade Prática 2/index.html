@@ -10,103 +10,27 @@
         <title>Fatec São Caetano do Sul - Antoinio Russo</title>
         <link rel="stylesheet" href="style.css">
         <style>
-            /* div principal: */
-            #mainDiv {
-                background-color: white;
-                margin: 25px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 10px;
-                border-radius: 10px;
-                width: 1022px;
+            body {
+                background-color: rgb(17,34,51);
+                font-family: Arial, Helvetica, sans-serif;
             }
 
-            /* Ícones redes sociais: */
-            .imgIcons {
-                width: 20px;
-                margin-right: 8px;
-                margin-left: 8px;
-                display: inline-block;
-            }
-
-            #divIcons {
-                font-size: 13px;
+            a {
+                text-decoration: none;
                 font-weight: bold;
-                text-align: end;
-                margin-top: 10px;
+                color: black;
             }
 
-            #imgIconsTel {
-                margin: 0;
-            }
-
-            #aIconsTel {
-                margin-right: 8px;
-            }
-
-            /* Imagens de Logos: */
-            .imgLogos {
-                width: 200px;
-            }
-
-            #imgLogoFatec {
-                float: left;
-            }
-
-            #imgLogoCPS {
-                display: inline-block;
-            }
-
-            #imgLogoSP {
-                float: right;
-            }
-
-            #divLogos {
-                text-align: center;
-                margin: 25px;
-            }
-
-            /* Links dos botões: */
-            .aButtons {
-                background-color: rgb(62,109,208);
-                color: white;
-                padding: 5px;
-                font-size: 13px;
-                border-radius: 2px;
-                margin-left: -1px;
-                margin-right: -1px;
-            }
-
-            #divButtons {
-                padding: 0;
-                text-align: center;
-                /*padding-top: 8px;
-                padding-bottom: 8px;
-                padding-left: 5px;
-                padding-right: 5px;
-                margin-left: -5px;
-                margin-right: -5px;
-                background-color: rgb(255, 255, 255);
-                border-radius: 5px;*/
-            }
-
-            #aButtonsDif {
-                background-color: rgb(149,32,25);
-            }
-
-            /* Rodapé: */
-            .divFooterMapa {
-                display: inline-block;
-                vertical-align: top;
-            }
-
-            #spanFooterMapa {
-
-            }
-
-            #divFooterFinal {
-                margin-top: 10px;
-                text-align: center;
+            footer {
+                background-color: rgb(216, 216, 216);
+                margin-left: -10px;
+                margin-right: -10px;
+                margin-bottom: -10px;
+                padding: 10px;
+                padding-top: 1px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                font-size: 12px;
             }
         </style>
     </head>
@@ -166,64 +90,101 @@
                 <a href="http://mail.office365.com/" target="_blank" class="aButtons" id="aButtonsDif" onmouseover="this.style.backgroundColor=' rgb(105, 44, 41)'" onmouseout="this.style.backgroundColor='rgb(149,32,25)'">Webmail @fatec</a>
             </dir>
 
+            <div id="divContent">
+                <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=18"><img src="https://www.fatecsaocaetano.edu.br/img/17motivos.jpg" alt="Fotos da FatecSCS com as legendas: conheça 17 bons motivos para estudar aqui, cursos tecnológicos e faculdade pública e gratuita." id="imgContent"></a>
+                
+
+                <div id="divContentAcesse">
+                    <div class="itemsContentAcesse" id="itemContentAcesseAlunos">
+                        Acesso de alunos:<br>
+
+                        <a href="https://siga.cps.sp.gov.br/aluno" target="_blank"><img src="https://www.fatecsaocaetano.edu.br/img/logos/logosiga.png" alt="Logo do Siga (Sistema Integrado de Gestão Acadêmica)" class="imgContentAcesse" id="sigaContentAcesse"></a>
+                        <br>
+
+                        <a href="http://www.fatec.sp.gov.br/view/Default.aspx" target="_blank">
+                            <figure id="figureContentAcesse">
+                                <img src="https://www.fatecsaocaetano.edu.br/img/logos/microsoftatual.jpg" alt="Logo da Microsoft" class="imgContentAcesse">
+                                <figcaption>E-mail Institucional</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <a href="https://www.fatecsaocaetano.edu.br/index.php/2020/05/12/canais-de-comunicacao/"><img src="https://www.fatecsaocaetano.edu.br/img/homebanner/comunicacaocorona.jpg" alt="Panfleto com a de uma escrivaninha e as legendas: canais de comunicação durante a quarentena e estamos com diversos canais de comunicação nessa época de isalamento. Clique aqui para saber mais." class="itemsContentAcesse"></a>
+                </div>
+
+                <div id="divContentDocumentos">
+                    <p id="pContentDocumentos">Documetos</p>
+
+                    <a href="https://drive.google.com/open?id=0B_voRRzH-kaOZWxHOUdCWDA2Y3M"><img src="https://www.fatecsaocaetano.edu.br/img/aaccestagio.jpg" alt="Imagem de um arquivo em PDF com a legenda: atendimento de estágio e aacc" class="imgContentDocumentosDocs"></a>
+                    
+                    <a href="https://drive.google.com/file/d/1_aZ0HDLMy7ltg8TeNfZPv-6KXX6KWbwV/view?usp=sharing"><img src="https://www.fatecsaocaetano.edu.br/img/calendario20202.jpg" alt="Imagem de um calendário com a legenda: calendário 2020/2" class="imgContentDocumentosDocs"></a>
+                    
+                    <a href="https://drive.google.com/file/d/1GQUKKn3u62nXdwF6IfkspYY7MzEFntmo/view?usp=sharing"><img src="https://www.fatecsaocaetano.edu.br/img/horario20202.jpg" alt="Imagem de uma tabela com os horários de aulas com a legenda: horários de aulas 2020/2" class="imgContentDocumentosDocs"></a>
+
+                    <br>
+
+                    <a href="https://www.fatecsaocaetano.edu.br/fascitech"><img src="https://www.fatecsaocaetano.edu.br/img/logos/fascitech.jpg" alt="Logo do fasci-tech" id="imgContentDocumentosFascitech"></a>
+                </div>
+            </div>
+
             <footer>
                 <h2>Mapa do Site</h2>
 
-                <span id="spanFooterMapa">
-                    <div class="divFooterMapa">
-                        Home <br>
-                        Nossa Fatec <br>
-                        Quem Somos? <br>
-                        Missão das Fatecs <br>
-                        Regimento e Regulamento <br>
-                        Congregação <br>
-                        Direção <br>
-                        Diretoria de Serviços Acadêmicos <br>
-                        Diretoria de Serviços Administrativos <br>
-                        Coordenação de Curso <br>
-                        Corpo Docente
+                <div id="divFooterMapa">
+                    <div class="divFooterMapaCol" id="divFooterMapaCol1">
+                        <a href="index.html" class="aFooterMapaCol">Home</a><br>
+                        <h3>Nossa Fatec</h3>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtquemsomos" class="aFooterMapaCol">Quem Somos?</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtmissao" class="aFooterMapaCol">Missão das Fatecs</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#regimento" class="aFooterMapaCol">Regimento e Regulamento</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtcongregacao" class="aFooterMapaCol">Congregação</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtdiretoria" class="aFooterMapaCol">Direção</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtsecracad" class="aFooterMapaCol">Diretoria de Serviços Acadêmicos</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtdirserv" class="aFooterMapaCol">Diretoria de Serviços Administrativos</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtcoord" class="aFooterMapaCol">Coordenação de Curso</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=2#txtdocentes" class="aFooterMapaCol">Corpo Docente</a>
                     </div>
 
-                    <div class="divFooterMapa">
+                    <div class="divFooterMapaCol" id="divFooterMapaCol2">
                         <h3>Cursos de Graduação</h3>
-                        Apresentação <br>
-                        Análise e Desenvolvimento de Sistemas <br>
-                        Comércio Exterior <br>
-                        Gestão Empresarial (EAD) <br>
-                        Jogos Digitais <br>
-                        Secretariado <br>
-                        Segurança da Informação
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=3" class="aFooterMapaCol">Apresentação</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=4" class="aFooterMapaCol">Análise e Desenvolvimento de Sistemas</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=22" class="aFooterMapaCol">Comércio Exterior</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=5" class="aFooterMapaCol">Gestão Empresarial (EAD)</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=6" class="aFooterMapaCol">Jogos Digitais</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=7" class="aFooterMapaCol">Secretariado</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=8" class="aFooterMapaCol">Segurança da Informação</a>
                     </div>
                     
-                    <div class="divFooterMapa">
+                    <div class="divFooterMapaCol">
                         <h3>Pesquisa na Fatec</h3>
-                        Informações gerais <br>
-                        FaSci-Tech
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=9" class="aFooterMapaCol">Informações gerais</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/fascitech/" class="aFooterMapaCol">FaSciTech</a>
                         
                         <h3>Serviços e Informações</h3>
-                        Biblioteca <br>
-                        Eventos <br>
-                        Parcerias <br>
-                        Concursos <br>
-                        Como chegar <br>
-                        Contato
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=17" class="aFooterMapaCol">Biblioteca</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/eventos/" class="aFooterMapaCol">Eventos</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=16" class="aFooterMapaCol">Parcerias</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=10" class="aFooterMapaCol">Concursos</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=12" class="aFooterMapaCol">Como chegar</a><br>
+                        <a href="https://www.fatecsaocaetano.edu.br/home.php?pageid=11" class="aFooterMapaCol">Contato</a>
                     </div>
 
-                    <div class="divFooterMapa">
+                    <div class="divFooterMapaCol" id="divFooterMapaCol4">
                         <h3>Governo</h3>
-                        Centro Paula Souza <br>
-                        Secretaria de Desenvolvimento <br>
-                        Governo do Estado de São Paulo
+                        <a href="http://www.cps.sp.gov.br/" target="_blank" class="aFooterMapaCol">Centro Paula Souza</a><br>
+                        <a href="http://www.desenvolvimento.sp.gov.br/" target="_blank" class="aFooterMapaCol">Secretaria de Desenvolvimento</a><br>
+                        <a href="http://www.saopaulo.sp.gov.br/" target="_blank" class="aFooterMapaCol">Governo do Estado de São Paulo</a>
                     </div>
 
-                    <div class="divFooterMapa">
+                    <div class="divFooterMapaCol" id="divFooterMapaCol5">
                         <h3>Redes Sociais</h3>
-                        Facebook <br>
-                        Twitter <br>
-                        YouTube <br>
-                        Instagram
+                        <a href="https://www.facebook.com/FatecSaoCaetano" target="_blank" class="aFooterMapaCol">Facebook</a><br>
+                        <a href="https://twitter.com/fatecsaocaetano" target="_blank" class="aFooterMapaCol">Twitter</a><br>
+                        <a href="http://www.youtube.com/user/fatecsaocaetano" target="_blank" class="aFooterMapaCol">YouTube</a><br>
+                        <a href="http://instagram.com/fatecsaocaetano" target="_blank" class="aFooterMapaCol">Instagram</a>
                     </div>
-                </span>
+                </div>
                 
                 <div id="divFooterFinal">
                     Faculdade de Tecnologia de São Caetano do Sul (Fatec SCS)
@@ -232,7 +193,6 @@
                     <br>
                     tel/fax (11) 4238-2041 - e-mail: <a href="mailto:f168dir@cps.sp.gov.br">f168dir@cps.sp.gov.br</a>
                 </div>
-                
             </footer>
 
         </div>

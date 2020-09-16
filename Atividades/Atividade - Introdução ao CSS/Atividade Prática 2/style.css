@@ -1,22 +1,197 @@
-body {
-    background-color: rgb(17,34,51);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-footer {
-    background-color: rgb(216, 216, 216);
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
+/* div principal: */
+#mainDiv {
+    background-color: white;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
-    padding-top: 1px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-size: 12px;
+    border-radius: 10px;
+    width: 1022px;
+}
+
+/* Ícones redes sociais: */
+.imgIcons {
+    width: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#divIcons {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: end;
+    margin-top: 10px;
+}
+
+#imgIconsTel {
+    margin-right: 0;
+}
+
+#aIconsTel {
+    padding-right: 8px;
+}
+
+/* Imagens de Logos: */
+.imgLogos {
+    width: 200px;
+}
+
+#imgLogoFatec {
+    float: left;
+}
+
+#imgLogoCPS {
+    display: inline-block;
+}
+
+#imgLogoSP {
+    float: right;
+}
+
+#divLogos {
+    text-align: center;
+    margin: 25px;
+}
+
+/* Links dos botões: */
+.aButtons {
+    background-color: rgb(62,109,208);
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+#divButtons {
+    padding: 0;
+    text-align: center;
+    /*padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;*/
+}
+
+#aButtonsDif {
+    background-color: rgb(149,32,25);
+}
+
+/* Conteúdo: */
+#divContent {
+    color: rgb(56, 65, 70);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#imgContent {
+    width: 900px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+    /* Div Acesse */
+.itemsContentAcesse {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.imgContentAcesse {
+    width: 270px;
+    margin-top: 8px;
+}
+
+#divContentAcesse {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-color: rgb(121, 124, 121);
+}
+
+#itemContentAcesseAlunos {
+    width: 486px;
+    text-align: center;
+}
+
+#sigaContentAcesse {
+    border: solid rgb(121, 124, 121);
+    border-radius: 10px;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#figureContentAcesse {
+    margin: 0;
+    margin-top: 8px;
+    width: fit-content;
+    color: rgb(145, 150, 145);
+    text-align: end;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid rgb(121, 124, 121);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+    /* Div Documentos */
+#divContentDocumentos {
+    margin-bottom: 100px;
+}
+
+#pContentDocumentos {
+    text-align: left;
+    padding-left: 120px;
+}
+
+#imgContentDocumentosFascitech {
+    width: 728px;
+}
+
+.imgContentDocumentosDocs {
+    border: solid;
+    border-radius: 2px;
+}
+
+/* Rodapé: */
+.divFooterMapaCol {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+#divFooterMapa {
+    text-align: center;
+}
+
+.aFooterMapaCol {
+    font-weight: normal;
+}
+
+#divFooterMapaCol1 {
+    float: left;
+}
+
+#divFooterMapaCol2 {
+    padding-right: 3%;
+}
+
+#divFooterMapaCol4 {
+    padding-left: 3%;
+}
+
+#divFooterMapaCol5 {
+    float: right;
+}
+
+#divFooterFinal {
+    margin-top: 15px;
+    text-align: center;
 }
