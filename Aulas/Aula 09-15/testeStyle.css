@@ -1,0 +1,36 @@
+/*Estilo para uma classe: (.nomeClasse)*/
+.nomeClasse {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.904);
+    background-color: rgb(53, 53, 53);
+}
+
+/*Estilo para um id: (#id)*/
+#idUnico {
+    background-color: rgba(236, 37, 37, 0.637);
+}
+
+p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+img {
+    width: 200px; /*Colocar apenaas width ou heigh para img pois esta mantém a proporção*/
+    /*Aliha ao centro:*/
+    display: block;
+    margin: 0 auto;
+    /*Até aqui*/
+}
+
+/*figure {
+    display: block;
+    margin: 0 auto;
+}*/
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px #000000bb;
+    border-radius: 10px;
+}
