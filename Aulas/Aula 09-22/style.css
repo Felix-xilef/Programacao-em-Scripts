@@ -1,0 +1,277 @@
+body {
+    /* Configuração para imagem de background */
+    background-image: url(https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /******************************************/
+    /* Configuração de texto */
+    color: #303030;
+    text-align: center;
+    text-indent: 5px;
+    /*************************/
+    /* Configuração da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    /*************************/
+}
+
+h1 {
+    /* Configuração de texto */
+    text-transform: capitalize;
+    text-indent: 2px;
+    text-decoration: underline;
+    font-style: italic;
+    /*************************/
+}
+
+#p1 {
+    /* Configuração de texto */
+    font-weight: 900;
+    font-size: larger;
+    /*************************/
+}
+
+#p2 {
+    /* Configuração de texto */
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    line-height: 35px;
+    text-decoration: line-through;
+    font-size: 20px;
+    /*************************/
+}
+
+#divMain {
+    /* Configuração da largura */
+    width: 750px;
+    /***************************/
+    /* Configuração do backgroud */
+    background-color: #a6a6a6;
+    /*****************************/
+    /* Configuração da margem externa */
+    margin: auto;
+    /**********************************/
+    /* Configuração da margem interna */
+    padding: 20px;
+    /**********************************/
+    /* Configuração de borda */
+    border-color: white;
+    border-radius: 20px;
+    border-width: 7px;
+
+    border-left-style: dotted;
+    border-left-color: blueviolet;
+
+    border-top-style: groove;
+    border-top-color: orange;
+
+    border-right-style: solid;
+    border-right-color: red;
+
+    border-bottom-style: dashed;
+    /*************************/
+}
+
+#div1 {
+    /* Configuração da altura e largura */
+    width: 500px;
+    height: 500px;
+    /************************************/
+    /* Configuração para imagem de background */
+    background-image: url(https://neilpatel.com/wp-content/uploads/2017/08/colors.jpg);
+    background-repeat: round;
+    /******************************************/
+    /* Configuração da margem externa */
+    margin: auto;
+    /**********************************/
+    /* Configuração de borda */
+    border-radius: 260px;
+    /*************************/
+    
+}
+
+#div2 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração de borda */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*************************/
+    /* Configuração da margem externa */
+    margin-top: 50px;
+    /**********************************/
+    /* Configuração para cores em hsl */
+    background-color: hsl(0, 100%, 50%);
+    /**********************************/
+}
+
+#div3 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em rgb */
+    background-color: rgb(255, 123, 0);
+    /**********************************/
+}
+
+#div4 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em hexadecimal (hex - #) */
+    background-color: #ffee00;
+    /****************************************************/
+}
+
+#div5 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em hsla */
+    background-color: hsla(113, 100%, 50%, 0.5);
+    /***********************************/
+}
+
+#div6 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em rgba */
+    background-color: rgba(0, 255, 170, 0.5);
+    /***********************************/
+}
+
+#div7 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em rgb */
+    background-color: rgb(0, 119, 255);
+    /**********************************/
+}
+
+#div8 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em hexadecimal (hex - #) */
+    background-color: #0400ff;
+    /****************************************************/
+}
+
+#div9 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração para cores em hsla */
+    background-color: hsla(271, 100%, 50%, 0.5);
+    /***********************************/
+}
+
+#div10 {
+    /* Configuração da altura e largura */
+    width: auto;
+    height: 50px;
+    /************************************/
+    /* Configuração de borda */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /*************************/
+    /* Configuração para cores em rgba */
+    background-color: rgba(255, 0, 200, 0.5);
+    /***********************************/
+}
+
+#div11 {
+    /* Configuração da altura e largura */
+    min-height: 100px;
+    max-height: 250px;
+    min-width: 50px;
+    max-width: 1000px;
+    /************************************/
+    /* Configuração da margem externa */
+    margin-top: 25px;
+    /**********************************/
+    /* Configuração da margem interna */
+    padding-left: 10px;
+    padding-right: 10px;
+    /**********************************/
+    /* Configuração de borda */
+    border-color: #303030;
+    border-style: solid;
+    border-radius: 10px;
+    /*************************/
+}
+
+#div12e13 {
+    /* Configuração o display e visibilidade */
+    display: inline-block;
+    visibility: hidden;
+    /*****************************************/
+}
+
+#div12 {
+    /* Configuração da opacidade */
+    opacity: 0.9;
+    /*****************************/
+    /* Configuração da posição */
+    /*position: static;
+    position: relative;
+    position: fixed;*/
+    float: left;
+    clear: left;
+    /***************************/
+    /* Configuração do backgroud */
+    background-color: #ffffff;
+    /*****************************/
+    /* Configuração da margem externa */
+    margin-top: 25px;
+    /**********************************/
+    /* Configuração da altura e largura */
+    width: 100px;
+    height: 100px;
+    /************************************/
+    /* Configuração de borda */
+    border-radius: 50px;
+    /*************************/
+}
+
+#div13 {
+    /* Configuração da opacidade */
+    opacity: 0.5;
+    /*****************************/
+    /* Configuração a visibilidade */
+    visibility: visible;
+    /*******************************/
+    /* Configuração da posição */
+    /*position: static;
+    position: relative;
+    position: fixed;*/
+    float: left;
+    clear: left;
+    /***************************/
+    /* Configuração do backgroud */
+    background-color: #0059ff;
+    /*****************************/
+    /* Configuração da margem externa */
+    margin-top: 25px;
+    /**********************************/
+    /* Configuração da altura e largura */
+    width: 100px;
+    height: 100px;
+    /************************************/
+    /* Configuração de borda */
+    border-radius: 50px;
+    /*************************/
+}
