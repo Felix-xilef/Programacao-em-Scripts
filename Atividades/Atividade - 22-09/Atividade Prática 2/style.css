@@ -1,0 +1,65 @@
+body {
+    padding: 20px;
+}
+
+#divMain {
+    background-color: #B0C4DE;
+    padding: 20px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+    box-shadow: 10px 7px 8px #595959;
+}
+
+h1 {
+    background-color: #CECECE;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#divMenu {
+    background-color: #CECECE;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+figure {
+    margin: 0;
+    border: solid 1px;
+    text-align: center;
+}
+
+#figureHamster {
+    float: right;
+    margin-left: 20px;
+}
+
+#figureHamster img {
+    width: 275px;
+}
+
+#figureLorem {
+    float: left;
+    margin-right: 20px;
+}
+
+#figureLorem img {
+    width: 500px;
+}
+
+footer {
+    background-color: #CECECE;
+    color: #595959;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
