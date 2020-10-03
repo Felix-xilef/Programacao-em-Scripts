@@ -24,7 +24,46 @@
         </header>
 
         <div id="divMainContato" class="divMain">
+            <div id="divContatoCol">
+                <h2>Horário de Funcionamento</h2>
+                <div class="divIcons"><img src="../imagens/clock.png" alt="Ícone de um relógio"><div>Atendimento: 24h, todos os dias da semana!</div></div>
+                <div class="divIcons"><a href="mailto:contato@tnbafaz.com.br"><img src="../imagens/arroba.png" alt="Ícone de um arroba"><div>contato@tnbafaz.com.br</div></a></div>
+                <div class="divIcons"><a href="tel:+5511963514865"><img src="../imagens/whatsapp.png" alt="Ícone do WhatsApp"><div>(11) 96351-4865</div></a></div>
+                <div class="divIcons"><a href="tel:+5511963514865"><img src="../imagens/phone-call.png" alt="Ícone de um Telefone"><div>(11) 96351-4865</div></a></div>
+                <form action="feedback.html">
+                    <h2>Entre em contato com o TBNA</h2>
+                    <p>Entre em contato conosco, caso tenha alguma dúvida<br>sobre a formatação, preço, prazo de entrega ou<br>qualquer outra dúvida, preenchendo os campos do<br>formulário abaixo.</p>
+                    <label for="nome">Nome Completo:</label>
+                    <br>
+                    <input type="text" name="nome" id="nome" class="inputBoxes">
+                    <br>
 
+                    <label for="telefone">Telefone com DDD (WhatsApp):</label>
+                    <br>
+                    <input type="tel" name="telefone" id="telefone" class="inputBoxes">
+                    <br>
+
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input type="email" name="email" id="email" class="inputBoxes">
+                    <br>
+
+                    <label for="assunto">Assunto:</label>
+                    <br>
+                    <input type="text" name="assunto" id="assunto" class="inputBoxes">
+                    <br>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                    <br>
+
+                    <div>
+                        <input type="reset" value="Limpar" class="inputButtons" onmouseover="this.style.backgroundColor='rgb(53, 94, 182)'" onmouseout="this.style.backgroundColor='rgb(0, 81, 255)'">
+                        <input type="submit" value="Enviar" class="inputButtons" onmouseover="this.style.backgroundColor='rgb(53, 94, 182)'" onmouseout="this.style.backgroundColor='rgb(0, 81, 255)'">
+                    </div>
+                </form>
+            </div>
         </div>
 
         <footer>

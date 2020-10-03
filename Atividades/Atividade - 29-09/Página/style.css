@@ -81,7 +81,7 @@ footer div{
 
 /********************** main index **********************/
 #divMainIndex {
-    text-align: center;x
+    text-align: center;
 }
 
 #h1ValorPagina {
@@ -91,7 +91,7 @@ footer div{
 #divColunas {
     background-color: rgb(204, 204, 204);
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .divColuna {
@@ -117,14 +117,86 @@ footer div{
 
 /******************** main sobre nos ********************/
 #divMainSobreNos {
-
+    text-align: center;
 }
 
-#divMainSobreNos img {
+#divMainSobreNos img{
     width: 500px;
+}
+
+#divMainSobreNos table{
+    display: inline-block;
+}
+
+#divMainSobreNos td{
+    padding: 15px;
+    text-align: justify;
 }
 
 /********************* main contato *********************/
 #divMainContato {
+    text-align: center;
+}
 
+#divContatoCol {
+    display: inline-block;
+    text-align: left;
+}
+
+.divIcons {
+    margin-bottom: 20px;
+}
+
+.divIcons img{
+    width: 32px;
+    margin-right: 10px;
+}
+
+.divIcons div, img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+form label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputBoxes {
+    width: 249px;
+}
+
+.inputBoxes, textarea {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-style: hidden;
+}
+
+form div{
+    text-align: right;
+}
+
+.inputButtons {
+    background-color: rgb(0, 81, 255);
+    border-style: hidden;
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/******************** main feedback *********************/
+#divMainFeedback {
+    text-align: center;
+}
+
+#divMainFeedback a{
+    background-color: rgb(0, 81, 255);
+    padding: 5px;
+    border-radius: 5px;
 }
