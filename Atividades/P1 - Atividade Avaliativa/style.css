@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(61, 61, 61);
+    color: whitesmoke;
+    text-align: justify;
+}
+
+/* Menu */
+#divMenu {
+    text-align: center;
+}
+
+#divMenu img{
+    width: 500px;
+    padding-top: 10px;
+}
+
+#divMenu div{
+    background-image: url(imagens/background.jpg);
+    padding: 20px;
+    margin-top: 4px;
+}
+
+.aMenu{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(61, 61, 61);
+    color:inherit;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(48, 48, 48);
+    margin-top: 20px;
+}
+
+#divMapa {
+    padding-top: 1px;
+    padding-left: 20px;
+}
+
+#divMapa a{
+    font-weight: normal;
+    font-size: 15px;
+    background: none;
+}
+
+#divCopy {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Principal */
+#divPrincipal {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contentPrincipal {
+    display: inline-block;
+    width: 500px;
+    vertical-align: middle;
+    margin: 10px;
+    text-align: justify;
+}
+
+/* Quem Somos */
+#divQuemSomos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#divCol1 {
+    width: 750px;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#divCol1 h1{
+    color: rgb(108, 51, 212);
+}
+
+#divCol2 dl{
+    text-align: justify;
+}
+
+#divCol2 dt{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contentCol2 {
+    display: inline-block;
+    width: 470px;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+/* Serviços */
+#divServicos {
+    margin: 20px;
+}
+
+.divColunas {
+    text-align: center;
+}
+
+.divColunas div{
+    text-align: justify;
+}
+
+.contentServicos {
+    display: inline-block;
+    margin: 20px;
+    width: 500px;
+    vertical-align: middle;
+}
+
+/* Cadastro */
+#divCadastro {
+    text-align: center;
+}
+
+#divCadastro img{
+    width: 300px;
+}
+
+#divCadastro div, form{
+    display: inline-block;
+    margin: 20px;
+    width: 500px;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: transparent;
+}
+
+.botoes {
+    font-size: 17px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: inherit;
+    cursor: pointer;
+}
+
+#limpar {
+    background-color: #1432bf;
+    margin-right: 10px;
+}
+
+#enviar {
+    background-color: #289228; /*397439*/
+}
+
+/* Feedback */
+#divMainFeedback {
+    text-align: center;
+    margin: 20px;
+}
