@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <title>Atividade Prática 3</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="JSCode.js"></script>
+    </head>
+    <body>
+        <div id="divMain">
+            <h1>Escolha seu Background!</h1>
+            <div id="divOp">
+                <dl>
+                    <dt><input type="radio" name="selecao" oninput="selecionar();" class="gradientePadrao" value="Title" checked>Gradiente Padrão</dt>
+                    <dd class="gradientePadrao"></dd>
+
+                    <dt><input type="radio" name="selecao" oninput="selecionar();" class="corSolida" value="Cor Sólida">Cor Sólida</dt>
+                    <dd class="corSolida" hidden>
+                        <input type="color" name="colorCorSolida" id="colorCorSolida" class="colorPicker">
+                    </dd>
+    
+                    <dt><input type="radio" name="selecao" oninput="selecionar();" class="imagem" value="Title">Imagem</dt>
+                    <dd class="imagem" hidden>
+                        <input type="file" name="fileImagem" id="fileImagem" draggable="false" accept=".jpg, .jpeg, .png">
+                        <br>
+                        <button onclick="" class="btnAplicar">Aplicar</button>
+                    </dd>
+    
+                    <dt><input type="radio" name="selecao" oninput="selecionar();" class="gradiente" value="Title">Gradiente</dt>
+                    <dd class="gradiente" hidden>
+                        <h3>Selecione 2 cores para o gradiente</h3>
+                        <div id="divGradient1" class="divGradient">
+                            <input type="color" name="colorGradiente1" class="colorPicker">
+                            <br>
+                            <label for="colorGradiente1">Lado Esquerdo</label>
+                        </div>
+                        <div id="divGradient2" class="divGradient">
+                            <input type="color" name="colorGradiente2" class="colorPicker">
+                            <br>
+                            <label for="colorGradiente2">Lado Direito</label>
+                        </div>
+                        <br>
+                        <button onclick="" class="btnAplicar">Aplicar</button>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </body>
+</html>

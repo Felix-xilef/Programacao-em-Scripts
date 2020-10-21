@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="JavaScript.js"></script>
+    </head>
+    <body>
+        <script>
+            //JavaScript com código interno (no html)
+            alert('Olá Mundo! (interno)');
+        </script>
+        <h1>Exemplo JavaScript</h1>
+        <div id="divM">
+            <div class="box" id="boxBran" onclick="mudacor('#ffffff');"></div>
+            <div class="box" id="boxVerm" onclick="mudacor('#ff0000');"></div>
+            <div class="box" id="boxVerd" onclick="mudacor('#008000');"></div>
+            <div class="box" id="boxAzul" onclick="mudacor('#0000ff');"></div>
+            <div class="box" id="boxPret" onclick="mudacor('#000000');"></div>
+            <br>
+            <input type="color" name="corSel" id="corSel" value="#ffffff" oninput="mudacor(document.getElementById('corSel').value);">
+        </div>
+    </body>
+</html>

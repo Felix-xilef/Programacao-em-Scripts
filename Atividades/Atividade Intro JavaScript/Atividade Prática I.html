@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <title>Atividade Prática 1</title>
+        <style>
+            body {
+                text-align: center;
+            }
+
+            #divM {
+                text-align: justify;
+                display: inline-block;
+                width: 400px;
+            }
+
+            .box {
+                width: 350px;
+                height: 40px;
+                margin: 20px;
+                display: block;
+            }
+
+            #boxBran {
+                background-color: white;
+            }
+
+            #boxVerm {
+                background-color: red;
+            }
+
+            #boxVerd {
+                background-color: green;
+            }
+
+            #boxAzul {
+                background-color: blue;
+            }
+
+            #boxPret {
+                background-color: black;
+            }
+        </style>
+        <script>
+            function mudacor(color) {
+                document.getElementsByTagName('body')[0].style.backgroundColor = color;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="divM">
+            <h2>Exemplo 3 JavaScript</h2>
+            <div class="box" id="boxVerm" onclick="mudacor('red');"></div>
+            <div class="box" id="boxVerd" onclick="mudacor('green');"></div>
+            <div class="box" id="boxAzul" onclick="mudacor('blue');"></div>
+        </div>
+    </body>
+</html>
