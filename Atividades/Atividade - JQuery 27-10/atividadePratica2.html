@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <style> 
+            body{
+                padding: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            div{
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                border-color: rgb(53, 53, 53);
+                display: inline-block;
+                margin: 10px;
+                box-shadow: 2px 2px 5px black;
+            }
+
+            .button, div{
+                cursor: pointer;
+            }
+
+            #txtConteudo, input{
+                font-size: 15px;
+                margin: 10px;
+            }
+
+            .destaque{
+                font-weight: bold;
+                color: red;
+                background-color: yellow;
+            }
+        </style>
+        <title>Atividade Prática II</title>
+        <script src="jquery.js"></script>
+        <script>
+            /**
+             * Retorna o tamanho do atributo css font-size
+             * @param {String} elementId Id do elemento
+             * @returns {number} Tamanho da Fonte
+             */
+            function fontSize(elementId){
+                return parseInt($(`#${elementId}`).css('font-size'));
+            }
+
+            /**
+             * Incrementa o valor do atributo css font-size
+             * @param {String} elementId Id do elemento
+             * @param {number}    qtd       Quantidade em que a fonte será incrementada (Para diminuilá basta adicionar valores negativos)
+             */
+            function incrmFont(elementId, qtd){
+                document.getElementById(elementId).style.fontSize=`${fontSize(elementId) + qtd}px`;
+            }
+
+            $(function(){
+                $('div').on('click', function(){
+                    $('body').css('background-color', $(this).css('background-color'));
+                });
+
+                $('#btnAdd').on('click', function(){
+                    $('body').append(`<p style="font-size:${fontSize('txtConteudo')}px">${document.getElementById('txtConteudo').value}</p>`);
+                });
+                
+                $('#btnAum').on('click', function(){
+                    incrmFont('txtConteudo', 1);
+                });
+                
+                $('#btnDim').on('click', function(){
+                    incrmFont('txtConteudo', -1);
+                });
+                
+                $('#btnRemU').on('click', function(){
+                    $('body').contents().last().remove('p');
+                });
+                
+                $('#btnRemT').on('click', function(){
+                    $('body').contents().remove('p');
+                });
+                
+                $('body').on('mouseover', 'p', function(){
+                    $(this).addClass('destaque');
+                });
+
+                $('body').on('mouseout', 'p', function(){
+                    $(this).removeClass('destaque');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Exemplo 2 JQuery</h1>
+        <div class="box" style="background-color: red;"></div>
+        <div class="box" style="background-color: green;"></div>
+        <div class="box" style="background-color: blue;"></div>
+        <div class="box" style="background-color: white;"></div>
+        <br>
+        <textarea name="txtConteudo" id="txtConteudo" cols="60" rows="3"></textarea>
+        <br>
+        <input class="button" type="button" value="Adicionar Parágrafo" id="btnAdd">
+        <input class="button" type="button" value="Aumentar tamanho da fonte" id="btnAum">
+        <input class="button" type="button" value="Diminuir tamanho da fonte" id="btnDim">
+        <input class="button" type="button" value="Remover último parágrafo" id="btnRemU">
+        <input class="button" type="button" value="Remover todos parágrafo" id="btnRemT">
+    </body>
+</html>
