@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <title>Atividade Prática 2</title>
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+        <style>
+            body {
+                padding: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            div {
+                background-color: rgb(165, 199, 243);
+                padding: 15px;
+                margin: 10px;
+                cursor: pointer;
+            }
+        </style>
+        <script src="jquery-ui/external/jquery/jquery.js"></script>
+        <script src="jquery-ui/jquery-ui.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+        <script>
+            $(function(){
+                $('#divFade').on('click', function(){
+                    $(this).effect('fade', 500);
+                });
+
+                $('#divDrop').on('click', function(){
+                    $(this).effect('drop', 500);
+                });
+
+                $('#divShake').on('click', function(){
+                    $(this).effect('shake', 500);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h2>Praticando #2</h2>
+
+        <div id="divFade">
+            <h3>Caixa 1 - Efeito Fade</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum aliquid, eius rerum libero ea id, excepturi laudantium autem dolor consectetur nesciunt, consequuntur qui ullam aut reprehenderit praesentium consequatur! Id! Lorem ipsum dolor sit amet consectetur adipisicing elit. A magnam provident possimus, praesentium ea laudantium veritatis eaque nisi, aliquam et perspiciatis nobis quo odio eius, adipisci incidunt ut sequi quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illo mollitia maiores ipsum harum vitae eum sequi error, repudiandae ipsa velit magni sint et, perferendis reiciendis quo! Est, molestias esse.</p>
+        </div>
+
+        <div id="divDrop">
+            <h3>Caixa 2 - Efeito Drop</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum aliquid, eius rerum libero ea id, excepturi laudantium autem dolor consectetur nesciunt, consequuntur qui ullam aut reprehenderit praesentium consequatur! Id! Lorem ipsum dolor sit amet consectetur adipisicing elit. A magnam provident possimus, praesentium ea laudantium veritatis eaque nisi, aliquam et perspiciatis nobis quo odio eius, adipisci incidunt ut sequi quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illo mollitia maiores ipsum harum vitae eum sequi error, repudiandae ipsa velit magni sint et, perferendis reiciendis quo! Est, molestias esse.</p>
+        </div>
+
+        <div id="divShake">
+            <h3>Caixa 3 - Efeito Shake</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum aliquid, eius rerum libero ea id, excepturi laudantium autem dolor consectetur nesciunt, consequuntur qui ullam aut reprehenderit praesentium consequatur! Id! Lorem ipsum dolor sit amet consectetur adipisicing elit. A magnam provident possimus, praesentium ea laudantium veritatis eaque nisi, aliquam et perspiciatis nobis quo odio eius, adipisci incidunt ut sequi quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illo mollitia maiores ipsum harum vitae eum sequi error, repudiandae ipsa velit magni sint et, perferendis reiciendis quo! Est, molestias esse.</p>
+        </div>
+    </body>
+</html>

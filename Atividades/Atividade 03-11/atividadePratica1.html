@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <title>Atividade Prática 1</title>
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            a {
+                font-weight: bold;
+                font-size: 15px;
+                display: block;
+                margin: 10px;
+            }
+
+            table {
+                font-size: 1em;
+            }
+
+            .ui-draggable, .ui-droppable {
+                background-position: top;
+            }
+        </style>
+        <script src="jquery-ui/external/jquery/jquery.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+        <script>
+            $( function() {
+                $( "#dialog-confirm" ).dialog({
+                    resizable: false,
+                    height: "auto",
+                    width: 400,
+                    modal: true,
+                    buttons: {
+                        "Fechar": function() {
+                            $( this ).dialog( "close" );
+                        },
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="dialog-confirm" title="Atenção">
+            <p>
+                <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 50px 0;"></span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestias!
+            </p>
+        </div>
+
+        <h2>Praticando #1</h2>
+        <a href="https://www.google.com.br/">Google</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://github.com/">GitHub</a>
+    </body>
+</html>

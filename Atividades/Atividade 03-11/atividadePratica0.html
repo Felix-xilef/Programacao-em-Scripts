@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Felix Petiz Bonilho">
+        <title>Atividade Prática 0</title>
+    </head>
+    <body>
+        <h2>Exemplo JavaScript com o dia da semana</h2>
+
+        <p id="semana"></p>
+        
+        <script>
+            let dia;
+            switch (new Date().getDay()) {
+                case 0:
+                    dia = "Domingo";
+                    break;
+
+                case 1:
+                    dia = "Segunda-Feira";
+                    break;
+                    
+                case 2:
+                    dia = "Terça-Feira";
+                    break;
+
+                case 3:
+                    dia = "Quarta-Feira";
+                    break;
+                    
+                case 4:
+                    dia = "Quinta-Feira";
+                    break;
+                    
+                case 5:
+                    dia = "Sexta-Feira";
+                    break;
+
+                case 6:
+                    dia = "Sábado";
+                    break;
+                
+                default:
+                    dia = "Dia da semana não encontrado!";
+            }
+            document.getElementById('semana').innerHTML = `Hoje é ${dia}`;
+        </script>
+    </body>
+</html>
