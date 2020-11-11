@@ -1,0 +1,111 @@
+body{
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background1{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/10/07/56141/genshin-impact-26.jpg");
+}
+
+.background2{
+    background-image: url("https://images5.alphacoders.com/109/thumb-1920-1099191.jpg");
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr{
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: rgb(131, 130, 130);
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+    margin-top: 20px;
+    padding: 5px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a, .txtBranco{
+    color: inherit;
+}
+
+/* index.html */
+.alert{
+    margin: 10px;
+}
+
+#divMsg{
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 20px;
+}
+
+#divGridInfo{
+    margin: 10px;
+}
+
+#divGridInfo .img-fluid{
+    margin: 5px;
+    background-color: rgba(109, 109, 109, 0.527);
+}
+
+#divGridInfo span{
+    vertical-align: middle;
+}
+
+#divGridInfo .alert-link{
+    display: block;
+    margin: 3px;
+}
+
+.divVideo{
+    padding-bottom: 56.25%;
+}
+
+.divVideo iframe{
+    position: absolute;
+    width: 98.25%;
+    height: 98.25%;
+    margin: 0;
+}
+
+/* biblioteca.html */
+#divMainBiblioteca{
+    background-color: rgb(36, 66, 100);
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.figure-caption{
+    color: inherit;
+}
+
+#divMainBiblioteca figure{
+    margin: 5px;
+    display: inline-block;
+}
+
+#divMainBiblioteca div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divMainBiblioteca hr{
+    border-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
