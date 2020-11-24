@@ -1,0 +1,147 @@
+body {
+    background-image: url(imagens/background.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(53, 53, 53, 0.95);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-color: rgb(206, 206, 206);
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+footer hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    color: inherit;
+}
+
+.alert {
+    margin: 10px;
+}
+
+#divGridIndex, #divGridQuemSomos {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+/* index */
+#divGridIndex img{
+    width: 500px;
+}
+
+#divGridIndex .alert{
+    margin: 0;
+}
+
+#divGridIndex p{
+    text-align: justify;
+}
+
+/* Quem Somos */
+#divGridQuemSomos {
+    color: white;
+    padding: 20px;
+}
+
+#divGridQuemSomos .alert{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#divGridQuemSomos img{
+    width: 500px;
+}
+
+#divGridQuemSomos dl{
+    padding: 10px;
+    background-color: rgb(3, 76, 160);
+}
+
+/* Serviços */
+#divCarouselServicos {
+    margin: 20px;
+    max-width: 800px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+#divCarouselServicos .alert-link{
+    color: inherit;
+}
+
+#divCarouselServicos .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 5px;
+}
+
+#divCarouselServicos .carousel-control-prev{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0));
+}
+
+#divCarouselServicos .carousel-control-next{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0));
+}
+
+#divGridServicos {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+#divGridServicos p{
+    text-align: justify;
+}
+
+#divGridServicos img{
+    width: 500px;
+}
+
+#titulo2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Cadastro */
+#divGridCadastro {
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(53, 53, 53, 0.975);
+    color: white;
+}
+
+#divGridCadastro p{
+    text-align: justify;
+}
+
+#enviar {
+    width: 80px;
+}
