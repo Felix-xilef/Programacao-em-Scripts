@@ -1,2 +1,2 @@
 # Programacao-em-Scripts
- Disciplina de Programação em Scripts
+ Exercícios da disciplina de Programação em Scripts
